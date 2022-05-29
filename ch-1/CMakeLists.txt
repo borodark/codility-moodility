@@ -47,6 +47,5 @@ include_directories( include )
 FILE(GLOB SOURCES "include/*.h" "src/*.cpp" "include/*.cpp")
 
 ADD_EXECUTABLE(all_unique "src/all_unique.cpp")
-#ADD_EXECUTABLE(q2 "src/q2.cpp")
-#ADD_EXECUTABLE(q4 "src/q4.cpp")
+ADD_EXECUTABLE(check_permutation "src/check_permutation.cpp")
 
