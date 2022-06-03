@@ -3,7 +3,7 @@
  * only works for lowercase letters of English alphabet
  */
 #include <iostream>
-#include <cassert>
+// #include <cassert>
 
 using namespace std;
 

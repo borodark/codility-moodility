@@ -10,7 +10,7 @@
  * - compare number of letters: must be the same
  */
 #include <iostream>
-#include <cassert>
+//#include <cassert>
 
 using namespace std;
 
