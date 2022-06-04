@@ -48,5 +48,6 @@ FILE(GLOB SOURCES "include/*.h" "src/*.cpp" "include/*.cpp")
 
 ADD_EXECUTABLE(all_unique "src/all_unique.cpp")
 ADD_EXECUTABLE(check_permutation "src/check_permutation.cpp")
+ADD_EXECUTABLE(permutation_of_palindrom "src/permutation_of_palindrom.cpp")
 ADD_EXECUTABLE(urlify "src/urlify.cpp")
 

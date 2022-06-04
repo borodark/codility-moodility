@@ -50,15 +50,14 @@ void url_efy(char *input_string, int its_true_lenth){
 
   }
 }
-//Jaux%20meis!%20Jaux%20meis!
-// Jaux meis! Jaux meis!
-// Jaux meis! Jaux meis!
+//
 int main(){
   char input[28] = {"Jaux meis! Jaux meis!      "};
+  cout << "size of is: "<< sizeof(input) << endl;
   url_efy(input,21);
   // char input[13] = {"Jaux meis!  "};
   // char input[13] = {'J','a','u','x',' ', 'm','e','i','s','!',' ', ' '};
-  cout << "size of is: "<< sizeof(input) << endl;
+
   // url_efy(input,10);
   cout << input << endl;
 }
